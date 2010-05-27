@@ -1,7 +1,12 @@
-This is a simple clipboard manager built using wxPython 2.6. This is meant
-to be a very simple tool to help you manage your snippets with ease. Every
-copy to the clipboard (while clippy is running) will be copied to a local
-sqlite database, so that we can easily add search functionality for clips
-and an archive sometimes in the near future.
+This is a simple clipboard manager built using wxPython 2.6 and Python 2.6. This is meant
+to be a very simple tool to help you manage your snippets with ease.
+Clipboard snippets (captured while running clippy, evidently) are saved
+into a local sqlite database.
+
+TODO:
+- "pause recording" mode (pauses the clipboard capturing until re-enabled,
+  while keeping clippy open in background)
+- clip search functionality
+- clips archive
 
 The copyright for clippy is held by Web Gear Software.
